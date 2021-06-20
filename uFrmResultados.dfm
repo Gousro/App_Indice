@@ -1,0 +1,139 @@
+object FrmResultados: TFrmResultados
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Seu '#237'ndice de massa corporal '#233':'
+  ClientHeight = 296
+  ClientWidth = 474
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 56
+    Top = 77
+    Width = 140
+    Height = 29
+    Caption = 'Altura..........:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 55
+    Top = 120
+    Width = 142
+    Height = 29
+    Caption = 'Peso............:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 56
+    Top = 155
+    Width = 143
+    Height = 29
+    Caption = 'Sexo............:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 56
+    Top = 190
+    Width = 141
+    Height = 29
+    Caption = 'IMC.............:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblAltura: TLabel
+    Left = 216
+    Top = 77
+    Width = 62
+    Height = 29
+    Caption = 'Altura'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblPeso: TLabel
+    Left = 216
+    Top = 120
+    Width = 50
+    Height = 29
+    Caption = 'Peso'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblSexo: TLabel
+    Left = 216
+    Top = 155
+    Width = 51
+    Height = 29
+    Caption = 'Sexo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblIMC: TLabel
+    Left = 216
+    Top = 190
+    Width = 42
+    Height = 29
+    Caption = 'IMC'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 474
+    Height = 41
+    Align = alTop
+    Caption = 'Seu '#237'ndice de massa corporal '#233':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    ExplicitWidth = 447
+  end
+end
